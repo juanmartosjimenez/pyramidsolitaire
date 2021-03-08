@@ -1,3 +1,4 @@
+
 import cs3500.pyramidsolitaire.model.hw02.Card;
 import cs3500.pyramidsolitaire.model.hw02.CardValue;
 import cs3500.pyramidsolitaire.model.hw02.Suite;

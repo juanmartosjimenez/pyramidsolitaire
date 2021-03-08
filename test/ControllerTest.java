@@ -1,3 +1,4 @@
+
 import cs3500.pyramidsolitaire.controller.PyramidSolitaireTextualController;
 import cs3500.pyramidsolitaire.model.hw02.BasicPyramidSolitaire;
 import cs3500.pyramidsolitaire.model.hw02.Card;
@@ -8,6 +9,7 @@ import org.junit.Test;
 import java.io.IOException;
 import java.io.StringReader;
 import java.util.List;
+
 import static org.junit.Assert.assertEquals;
 
 /** Tester Class for controller of Pyramid Solitaire. */

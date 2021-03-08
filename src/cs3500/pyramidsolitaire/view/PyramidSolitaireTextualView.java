@@ -57,7 +57,7 @@ public class PyramidSolitaireTextualView implements PyramidSolitaireView {
       StringBuilder out = new StringBuilder();
       for (int ii = 0; ii < rows; ii++) {
         out.append(createWhiteSpace((rows - ii - 1) * 2));
-        for (int jj = 0; jj < ii; jj++) {
+        for (int jj = 0; jj < (model.getRowWidth(ii) - 1); jj++) {
           if (model.getCardAt(ii, jj) == null) {
             out.append(".   ");
           } else if (model.getCardAt(ii, jj).toString().length() == 2) {
@@ -66,10 +66,10 @@ public class PyramidSolitaireTextualView implements PyramidSolitaireView {
             out.append(model.getCardAt(ii, jj).toString()).append(" ");
           }
         }
-        if (model.getCardAt(ii, ii) == null) {
+        if (model.getCardAt(ii, model.getRowWidth(ii) - 1) == null) {
           out.append(".\n");
         } else {
-          out.append(model.getCardAt(ii, ii).toString()).append("\n");
+          out.append(model.getCardAt(ii, model.getRowWidth(ii) - 1).toString()).append("\n");
         }
       }
 
