@@ -1,16 +1,13 @@
+
 import cs3500.pyramidsolitaire.model.hw02.BasicPyramidSolitaire;
 import cs3500.pyramidsolitaire.model.hw02.Card;
 import cs3500.pyramidsolitaire.model.hw02.CardValue;
 import cs3500.pyramidsolitaire.model.hw02.Suite;
 import cs3500.pyramidsolitaire.view.PyramidSolitaireTextualView;
-
 import org.junit.Test;
-
 import java.util.List;
 
-import static org.junit.Assert.assertEquals;
-import static org.junit.Assert.assertTrue;
-import static org.junit.Assert.assertFalse;
+import static org.junit.Assert.*;
 
 /** Tester class for the basicPyramidSolitaire class. */
 public class BasicPyramidSolitaireTest {
