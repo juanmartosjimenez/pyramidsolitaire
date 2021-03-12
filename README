@@ -1,4 +1,0 @@
-Changes to model from previous assignment
-- throw error if num of rows is less than 1
-- Added ":" to message "You win. Score: X"
-- Added tests to BasicPyramidSolitaireTest that I was missing from the self eval
